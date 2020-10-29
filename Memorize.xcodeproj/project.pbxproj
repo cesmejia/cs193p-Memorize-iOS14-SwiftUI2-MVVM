@@ -56,6 +56,7 @@
 		CA059EDC254616C9006649AF /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
 		CA110B7125464AEF0006FA02 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
 		CA49D7B22546642C00E9B679 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
+		CACF057C254A7F79003A3243 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CADC6BFD254629A1009622EB /* Array+Only.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,9 +88,7 @@
 		CA059E962545B9B6006649AF = {
 			isa = PBXGroup;
 			children = (
-				CA49D7B22546642C00E9B679 /* Cardify.swift */,
-				CA110B7125464AEF0006FA02 /* Pie.swift */,
-				CADC6BFD254629A1009622EB /* Array+Only.swift */,
+				CACF057C254A7F79003A3243 /* README.md */,
 				CA059EA12545B9B6006649AF /* Memorize */,
 				CA059EB32545B9B8006649AF /* MemorizeTests */,
 				CA059EBE2545B9B8006649AF /* MemorizeUITests */,
@@ -110,6 +109,9 @@
 		CA059EA12545B9B6006649AF /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
+				CA49D7B22546642C00E9B679 /* Cardify.swift */,
+				CA110B7125464AEF0006FA02 /* Pie.swift */,
+				CADC6BFD254629A1009622EB /* Array+Only.swift */,
 				CA059EA22545B9B6006649AF /* MemorizeApp.swift */,
 				CA059EA42545B9B6006649AF /* ContentView.swift */,
 				CA059ED02545BE4C006649AF /* MemoryGame.swift */,
