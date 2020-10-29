@@ -21,7 +21,7 @@ struct ContentView: View {
 //        }
         VStack {
             GeometryReader { geometry in
-                LazyVGrid(columns: [GridItem(), GridItem()], spacing: 10) {
+                LazyVGrid(columns: [GridItem(), GridItem(), GridItem()], spacing: 10) {
                     ForEach(emojiMemoryGameViewModel.cards) { card in
                         CardView(card: card)
                             .frame(height: geometry.size.height / CGFloat(emojiMemoryGameViewModel.cards.count / 2))
